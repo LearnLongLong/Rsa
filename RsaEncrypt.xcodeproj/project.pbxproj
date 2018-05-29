@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		691E68C220ABFD2D003514AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 691E68C120ABFD2D003514AD /* AppDelegate.m */; };
+		691E68C520ABFD2D003514AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691E68C420ABFD2D003514AD /* ViewController.m */; };
+		691E68C820ABFD2D003514AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691E68C620ABFD2D003514AD /* Main.storyboard */; };
+		691E68CA20ABFD2F003514AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691E68C920ABFD2F003514AD /* Assets.xcassets */; };
+		691E68CD20ABFD2F003514AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691E68CB20ABFD2F003514AD /* LaunchScreen.storyboard */; };
+		691E68D020ABFD2F003514AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 691E68CF20ABFD2F003514AD /* main.m */; };
+		691E68DB20AC0108003514AD /* RsaEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 691E68DA20AC0108003514AD /* RsaEncrypt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		691E68BD20ABFD2D003514AD /* RsaEncrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RsaEncrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		691E68C020ABFD2D003514AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		691E68C120ABFD2D003514AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		691E68C320ABFD2D003514AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		691E68C420ABFD2D003514AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		691E68C720ABFD2D003514AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		691E68C920ABFD2F003514AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		691E68CC20ABFD2F003514AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		691E68CE20ABFD2F003514AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691E68CF20ABFD2F003514AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		691E68D920AC0108003514AD /* RsaEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RsaEncrypt.h; sourceTree = "<group>"; };
+		691E68DA20AC0108003514AD /* RsaEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RsaEncrypt.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		691E68BA20ABFD2D003514AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		691E68B420ABFD2D003514AD = {
+			isa = PBXGroup;
+			children = (
+				691E68BF20ABFD2D003514AD /* RsaEncrypt */,
+				691E68BE20ABFD2D003514AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		691E68BE20ABFD2D003514AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				691E68BD20ABFD2D003514AD /* RsaEncrypt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		691E68BF20ABFD2D003514AD /* RsaEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				691E68C020ABFD2D003514AD /* AppDelegate.h */,
+				691E68C120ABFD2D003514AD /* AppDelegate.m */,
+				691E68C320ABFD2D003514AD /* ViewController.h */,
+				691E68C420ABFD2D003514AD /* ViewController.m */,
+				691E68C620ABFD2D003514AD /* Main.storyboard */,
+				691E68C920ABFD2F003514AD /* Assets.xcassets */,
+				691E68CB20ABFD2F003514AD /* LaunchScreen.storyboard */,
+				691E68CE20ABFD2F003514AD /* Info.plist */,
+				691E68CF20ABFD2F003514AD /* main.m */,
+				691E68D920AC0108003514AD /* RsaEncrypt.h */,
+				691E68DA20AC0108003514AD /* RsaEncrypt.m */,
+			);
+			path = RsaEncrypt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		691E68BC20ABFD2D003514AD /* RsaEncrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 691E68D320ABFD2F003514AD /* Build configuration list for PBXNativeTarget "RsaEncrypt" */;
+			buildPhases = (
+				691E68B920ABFD2D003514AD /* Sources */,
+				691E68BA20ABFD2D003514AD /* Frameworks */,
+				691E68BB20ABFD2D003514AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RsaEncrypt;
+			productName = RsaEncrypt;
+			productReference = 691E68BD20ABFD2D003514AD /* RsaEncrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		691E68B520ABFD2D003514AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = gmrz;
+				TargetAttributes = {
+					691E68BC20ABFD2D003514AD = {
+						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 691E68B820ABFD2D003514AD /* Build configuration list for PBXProject "RsaEncrypt" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 691E68B420ABFD2D003514AD;
+			productRefGroup = 691E68BE20ABFD2D003514AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				691E68BC20ABFD2D003514AD /* RsaEncrypt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		691E68BB20ABFD2D003514AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691E68CD20ABFD2F003514AD /* LaunchScreen.storyboard in Resources */,
+				691E68CA20ABFD2F003514AD /* Assets.xcassets in Resources */,
+				691E68C820ABFD2D003514AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		691E68B920ABFD2D003514AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691E68C520ABFD2D003514AD /* ViewController.m in Sources */,
+				691E68D020ABFD2F003514AD /* main.m in Sources */,
+				691E68DB20AC0108003514AD /* RsaEncrypt.m in Sources */,
+				691E68C220ABFD2D003514AD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		691E68C620ABFD2D003514AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				691E68C720ABFD2D003514AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		691E68CB20ABFD2F003514AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				691E68CC20ABFD2F003514AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		691E68D120ABFD2F003514AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		691E68D220ABFD2F003514AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		691E68D420ABFD2F003514AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C299C2M2ZC;
+				INFOPLIST_FILE = RsaEncrypt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmrz.ios.RsaEncrypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f9c7c858-4f1f-41ee-96a0-05e994ab07d7";
+				PROVISIONING_PROFILE_SPECIFIER = "GMRZ-FIDO";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		691E68D520ABFD2F003514AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C299C2M2ZC;
+				INFOPLIST_FILE = RsaEncrypt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmrz.ios.RsaEncrypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f9c7c858-4f1f-41ee-96a0-05e994ab07d7";
+				PROVISIONING_PROFILE_SPECIFIER = "GMRZ-FIDO";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		691E68B820ABFD2D003514AD /* Build configuration list for PBXProject "RsaEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691E68D120ABFD2F003514AD /* Debug */,
+				691E68D220ABFD2F003514AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		691E68D320ABFD2F003514AD /* Build configuration list for PBXNativeTarget "RsaEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691E68D420ABFD2F003514AD /* Debug */,
+				691E68D520ABFD2F003514AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 691E68B520ABFD2D003514AD /* Project object */;
+}
